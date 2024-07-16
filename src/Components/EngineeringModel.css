@@ -1,0 +1,60 @@
+.engineering-model {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.button-group, .switch-group, .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.control-button, .method-button, .action-button, .switch {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+}
+
+.control-button, .action-button {
+    background-color: #00f;
+    color: #fff;
+}
+
+.method-button {
+    background-color: #ccc;
+}
+
+.switch {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+}
+
+input[type="text"], select {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    width: 60px;
+}
+
+select {
+    width: auto;
+}
